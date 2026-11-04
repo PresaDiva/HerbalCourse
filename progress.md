@@ -24,4 +24,16 @@ Herbs covered:
 
 Claims left unverified: 2026 Volf et al. willow review and salicinoid insect statements (search summary only); why plants store defences as glycosides; body route from salicin to salicylic acid; salicin formula; aspirin 1899 history; specific willow bark drug interactions (no source opened); family assignment of salicin/menthol. No freely licensed product-form photo found. Wikimedia Commons API rate-limits (429) heavily; allow long waits.
 
-## Next: Lesson 3, Receptors: the body's locks
+## Lesson 3 complete: Receptors, the Body's Locks (2026-11-04)
+File: lessons/day-03-receptors-the-bodys-locks.html
+Summary: A receptor is a protein lock on a cell; ligands that fit are agonists (switch on) or antagonists (block). Capsaicin is an agonist at TRPV1, a heat-and-pain ion channel, and repeated exposure quiets that nerve ending.
+Prescription 8% capsaicin patch gives moderate relief to a minority with post-shingles nerve pain; OTC creams are less certain.
+
+Terms defined: receptor, ligand, agonist, antagonist, TRPV1, nociceptor, depolarization, substance P, desensitization/defunctionalization, postherpetic neuralgia, number needed to treat (previewed; Lesson 8)
+
+Herbs covered:
+- Chili pepper (Capsicum annuum) / capsaicin: Promising (8% patch, postherpetic neuralgia); Mixed (OTC low-concentration creams). Preview grade, full re-grade in Lesson 20. Sources: Cochrane Derry 2017 (tier 1, summary page opened), MSK Capsaicin 2023 (tier 3, opened), Smutzer and Devassy 2016 (tier 4, mechanism only).
+
+Claims left unverified: agonist/antagonist definitions (general pharmacology); that substance P depletion/defunctionalization explains relief in patients (MSK states it, no trial opened); cream concentrations such as 0.025%; pregnancy/breastfeeding/children safety. No freely licensed photo of a capsaicin product found. Commons API rate-limits heavily (waited ~10 min); thumbs download from thumb.wikimedia.org.
+
+## Next: Lesson 4, Enzymes: the body's workers
