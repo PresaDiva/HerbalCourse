@@ -36,4 +36,16 @@ Herbs covered:
 
 Claims left unverified: agonist/antagonist definitions (general pharmacology); that substance P depletion/defunctionalization explains relief in patients (MSK states it, no trial opened); cream concentrations such as 0.025%; pregnancy/breastfeeding/children safety. No freely licensed photo of a capsaicin product found. Commons API rate-limits heavily (waited ~10 min); thumbs download from thumb.wikimedia.org.
 
-## Next: Lesson 4, Enzymes: the body's workers
+## Lesson 4 complete: Enzymes, the Body's (and the Plant's) Workers (2026-11-05)
+File: lessons/day-04-enzymes-the-bodys-workers.html
+Summary: An enzyme is a protein worker that changes the substrate it fits; garlic's alliinase turns alliin into allicin when cloves are crushed, and human enzymes both process herb molecules and can be inhibited by them.
+Garlic supplements show small, uncertain benefits, mainly for blood pressure in people with hypertension; evidence for colds is thin.
+
+Terms defined: enzyme, substrate, product, active site, inhibitor, alliin, alliinase, allicin, hydrolysis, systolic/diastolic pressure, hypertension, meta-analysis (previewed; Lesson 8), induced defence (reused)
+
+Herbs covered:
+- Garlic (Allium sativum) / allicin: Mixed (provisional preview; re-grade in Lesson 24). Sources: Ried 2008 (tier 1, opened), Cochrane garlic and common cold (tier 1, summary opened), NCCIH Garlic Feb 2025 (tier 3, opened), Borlinghaus 2014 (tier 4, mechanism only).
+
+Claims left unverified: general enzyme/substrate/active-site/inhibitor definitions; alliin and alliinase being compartmentalised in intact cloves; heat and stomach-acid effects on alliinase; which garlic compound causes BP/cholesterol effects and whether allicin is absorbed; newer garlic BP meta-analyses (snippets only); aspirin-COX (carried from Lesson 2). PubMed blocked by cookie check. Commons API rate-limited; no supplement photo found.
+
+## Next: Lesson 5, What happens to a molecule in the body (absorption, metabolism, CYP enzymes); Friday hands-on exercise
