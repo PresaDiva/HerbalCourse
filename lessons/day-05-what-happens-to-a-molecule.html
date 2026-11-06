@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 5: What Happens to a Molecule in the Body</title>
+<style>
+:root{--bg:#fbfaf6;--fg:#1f2a24;--muted:#5b6860;--card:#fff;--line:#d9ded6;--accent:#2f7d57;--soft:#e8f3ec;--warn:#fff3df;--warnl:#e5b567}
+@media (prefers-color-scheme:dark){:root{--bg:#141a17;--fg:#e6ece8;--muted:#9fb0a6;--card:#1c2420;--line:#33403a;--accent:#6fd0a0;--soft:#1f3328;--warn:#3a2f1a;--warnl:#a07a2e}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Georgia,serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.9rem;line-height:1.2;margin:.2em 0}h2{margin-top:2em;border-bottom:2px solid var(--line);padding-bottom:.2em;color:var(--accent)}
+a{color:var(--accent)}.meta{color:var(--muted);font-size:.9rem}
+.box{background:var(--soft);border-left:4px solid var(--accent);padding:12px 16px;border-radius:6px;margin:1em 0}
+.warn{background:var(--warn);border-left-color:var(--warnl)}
+.badge{display:inline-block;background:var(--accent);color:var(--bg);padding:2px 10px;border-radius:12px;font-size:.85rem;font-family:sans-serif}
+figure{margin:1.2em 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px}
+figure img,figure svg{max-width:100%;height:auto;display:block;margin:0 auto}figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--soft)}
+details{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:8px 14px;margin:.6em 0}
+dt{font-weight:bold;margin-top:.7em}dd{margin:0 0 0 1em}
+.tier{font-family:sans-serif;font-size:.75rem;background:var(--line);padding:1px 7px;border-radius:10px;white-space:nowrap}
+.tablewrap{overflow-x:auto}
+svg text{fill:var(--fg);font-family:sans-serif}
+</style>
+</head>
+<body><main>
+<p class="meta">Herbal Course, Week 1: The toolkit · Lesson 5 of 35 · about 10 minutes · Friday hands-on</p>
+<h1>What Happens to a Molecule in the Body</h1>
+<p class="meta">Example herb: St John's wort (<em>Hypericum perforatum</em>) and the molecule hyperforin. Education only, not medical advice.</p>
+
+<h2>0. Quick recall (from Lessons 1 to 4)</h2>
+<ol>
+<li>What is the name of the pocket on an enzyme where the substrate fits?</li>
+<li>In garlic, which enzyme turns alliin into the pieces that make allicin?</li>
+<li>Why does the natural form of menthol work at TRPM8 when its mirror-image relatives mostly do not?</li>
+<li>Willow's salicin is a glycoside. What does that word mean?</li>
+</ol>
+<details><summary>Show answers</summary>
+<ol>
+<li>The active site.</li>
+<li>Alliinase.</li>
+<li>Shape. Stereoisomers have the same atoms in a different 3D arrangement, and only the right shape fits the receptor.</li>
+<li>A molecule with a sugar attached.</li>
+</ol>
+</details>
+
+<h2>1. Today's idea</h2>
+<p>Swallowing a capsule does not put its molecules at their target. They have to travel, and on the way your body changes them. Pharmacologists describe the trip in four steps, often shortened to <strong>ADME</strong>:</p>
+<ul>
+<li><strong>Absorption</strong>: getting from the gut into the blood.</li>
+<li><strong>Distribution</strong>: being carried by the blood to tissues.</li>
+<li><strong>Metabolism</strong>: being chemically changed, mostly by enzymes in the liver (Lesson 4's workers, now working on the herb).</li>
+<li><strong>Excretion</strong>: leaving the body, for example in urine or bile.</li>
+</ul>
+<p>Think of a parcel service. The parcel (molecule) must be accepted at the depot (gut wall), driven round (blood), possibly repackaged at a sorting centre (liver), and eventually returned or discarded (excretion). If the sorting centre speeds up, most parcels never reach the customer. If it slows down, parcels pile up.</p>
+<p>The general ADME framework is standard pharmacology. I did not open a source that defines it, so treat the four-step list as <strong>unverified background</strong>. The St John's wort example below is sourced.</p>
+
+<h2>2. Evidence grade</h2>
+<p><span class="badge">Mixed</span> for depression (<strong>provisional</strong>; full re-grade in Lesson 19). This lesson is about the interactions, not about whether the herb works.</p>
+<p>NCCIH (Tier 3, page last updated December 2017) says results of studies on St John's wort for depression "are mixed", and that it "isn't consistently effective". It describes a 2008 review of 29 studies suggesting it may beat placebo and match standard antidepressants for mild to moderate depression, but also a 2002 study of 340 people where it was no better than placebo for moderate major depression (<a href="https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth">NCCIH, St. John's Wort and Depression</a>). I did not open the individual trials, hence "provisional".</p>
+<p>The interaction story is much better documented than the benefit. NCCIH states it "limits the effectiveness of many prescription medicines", including antidepressants, birth control pills, cyclosporine, digoxin, oxycodone, some HIV and cancer drugs, and warfarin.</p>
+
+<h2>3. How it works</h2>
+<h3>3a. The liver's sorting centre</h3>
+<p>The key human enzyme family is <strong>cytochrome P450</strong>, shortened to <strong>CYP</strong>. One member, <strong>CYP3A4</strong>, handles a large share of medicines. (That CYP3A4 handles many drugs is widely taught; the sources I opened show it for the drugs they list, but I did not open one that gives a share, so I give no number.) Each CYP enzyme has an active site, so the Lesson 4 rules apply: substrates that fit get changed, usually into a form that is easier to excrete.</p>
+
+<h3>3b. Two ways a herb can change the traffic</h3>
+<p>The FDA's drug-interaction table (Tier 3) defines the two effects by what happens to a drug's <strong>AUC</strong>, the total amount of drug in the blood over time (the area under the concentration curve):</p>
+<ul>
+<li>An <strong>inhibitor</strong> raises the AUC of a drug the enzyme handles. Strong inhibitors raise it 5-fold or more, for CYP3A.</li>
+<li>An <strong>inducer</strong> lowers the AUC. Strong inducers cut it by 80 percent or more, for CYP3A (<a href="https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers">FDA table</a>).</li>
+</ul>
+<p>Inhibition is the Lesson 4 story: a blocker sits in the active site. <strong>Induction</strong> is new. Instead of blocking the worker, the inducer makes the cell build more workers. More workers means faster clearance and lower drug levels.</p>
+
+<h3>3c. St John's wort: the inducer</h3>
+<p>A 2020 review in the <em>British Journal of Pharmacology</em> (Nicolussi et al., Tier 4 for mechanism, with clinical case reports) states that St John's wort preparations are "potent activators of PXR and hence inducers of cytochrome P450 enzymes (most importantly CYP3A4)". The chain of events:</p>
+<ol>
+<li>A molecule in the extract, mainly <strong>hyperforin</strong>, enters liver cells and fits <strong>PXR</strong>, a receptor inside the cell (Lesson 3's lock idea, but this lock sits in the cell, not on its surface; its location is my gloss, unverified in the sources opened).</li>
+<li>Activated PXR switches on genes for CYP3A4 (the review links the two; the gene step is the standard explanation).</li>
+<li>The liver builds more CYP3A4 enzyme.</li>
+<li>A medicine that CYP3A4 handles is cleared faster, so its level falls and it may stop working.</li>
+</ol>
+<p>The review also says the degree of CYP3A4 induction "correlates significantly with the hyperforin content in the preparation" and sets a maximum of 1 mg hyperforin a day as a level to avoid clinically relevant interactions. A study with low-hyperforin extract (0.12 mg a day) found no significant change in a probe drug. Products differ, so "St John's wort" on a label does not tell you the hyperforin dose.</p>
+<figure>
+<svg viewBox="0 0 560 250" role="img" aria-label="Diagram: hyperforin activates PXR in a liver cell, which leads to more CYP3A4 enzyme, which clears a medicine faster so blood level falls.">
+<g font-size="13" text-anchor="middle">
+<rect x="10" y="20" width="540" height="150" rx="14" fill="var(--soft)" stroke="var(--accent)"/>
+<text x="90" y="16" font-size="12">Liver cell</text>
+<circle cx="60" cy="95" r="22" fill="var(--warnl)" stroke="var(--fg)"/><text x="60" y="99" font-size="10">hyperforin</text>
+<path d="M85 95h30" stroke="var(--fg)" stroke-width="2"/><path d="M115 95l-8-5v10z" fill="var(--fg)"/>
+<rect x="120" y="75" width="70" height="40" rx="8" fill="var(--accent)"/><text x="155" y="99" font-size="12" style="fill:var(--bg)">PXR</text>
+<path d="M192 95h30" stroke="var(--fg)" stroke-width="2"/><path d="M222 95l-8-5v10z" fill="var(--fg)"/>
+<text x="260" y="85" font-size="11">gene</text><text x="260" y="100" font-size="11">switched on</text>
+<path d="M298 95h30" stroke="var(--fg)" stroke-width="2"/><path d="M328 95l-8-5v10z" fill="var(--fg)"/>
+<rect x="335" y="60" width="60" height="22" rx="5" fill="var(--accent)"/><rect x="345" y="88" width="60" height="22" rx="5" fill="var(--accent)"/><rect x="335" y="116" width="60" height="22" rx="5" fill="var(--accent)"/>
+<text x="365" y="75" font-size="10" style="fill:var(--bg)">CYP3A4</text><text x="375" y="103" font-size="10" style="fill:var(--bg)">CYP3A4</text><text x="365" y="131" font-size="10" style="fill:var(--bg)">CYP3A4</text>
+<path d="M415 95h40" stroke="var(--fg)" stroke-width="2"/><path d="M455 95l-8-5v10z" fill="var(--fg)"/>
+<text x="500" y="88" font-size="11">medicine</text><text x="500" y="103" font-size="11">cleared faster</text>
+<text x="280" y="196" font-size="12">More enzyme workers → lower medicine level in blood → medicine may stop working</text>
+<text x="280" y="216" font-size="11">Teaching diagram, not to scale. Chain from Nicolussi et al. 2020; "gene switched on" step is the standard explanation (unverified here).</text>
+</g></svg>
+<figcaption>Induction: the herb does not block the worker, it recruits more of them.</figcaption>
+</figure>
+
+<h3>3d. Proven, not established, unverified</h3>
+<ul>
+<li><strong>Supported:</strong> St John's wort activates PXR and induces CYP3A4, more so with higher hyperforin (Nicolussi 2020). It reduces the effect of many medicines (NCCIH). Case reports describe unwanted pregnancies and breakthrough bleeding on oral contraceptives, and reduced cyclosporine levels that recovered when patients stopped the herb (Nicolussi, as reported).</li>
+<li><strong>Not established in what I read:</strong> numeric size of the AUC drop for particular drugs, and how long induction lasts after stopping. The page text I could read did not give them, and I did not read the rest of the review (about half was unread).</li>
+<li><strong>Different mechanism:</strong> NCCIH also warns that combining St John's wort with certain antidepressants can cause a potentially life-threatening rise in serotonin. That is an additive effect on the same pathway, not CYP induction.</li>
+</ul>
+
+<div class="tablewrap"><table>
+<tr><th></th><th>Inhibitor</th><th>Inducer</th></tr>
+<tr><td>What it does to the enzyme</td><td>Blocks the active site</td><td>Makes the cell produce more enzyme</td></tr>
+<tr><td>Speed</td><td>Quick (when it reaches the enzyme)</td><td>Slower to build up and to fade (general idea, unverified)</td></tr>
+<tr><td>Effect on a medicine's AUC (FDA)</td><td>Increases</td><td>Decreases</td></tr>
+<tr><td>Risk</td><td>Too much medicine</td><td>Too little medicine</td></tr>
+<tr><td>Example</td><td>Clarithromycin, itraconazole (strong CYP3A, FDA)</td><td>Rifampin, carbamazepine (strong CYP3A, FDA); St John's wort (Nicolussi)</td></tr>
+</table></div>
+
+<h2>4. Safety and interactions</h2>
+<div class="box warn">
+<ul>
+<li>Do not take St John's wort with prescription medicines unless a doctor or pharmacist has checked the combination. That includes birth control pills, warfarin, antidepressants, transplant drugs, HIV and cancer drugs (NCCIH).</li>
+<li>Do not start or stop it suddenly while on such medicines. Stopping an inducer changes drug levels too (cyclosporine example above).</li>
+<li>Serotonin risk with certain antidepressants can be life-threatening and can appear within minutes to hours (NCCIH).</li>
+<li>Other effects: upset stomach, headache, dizziness, sensitivity to sunlight, possible worse anxiety. Case reports of worsened psychosis in bipolar disorder or schizophrenia (NCCIH).</li>
+<li>Little safety data in pregnancy or children (NCCIH). Not a substitute for depression care.</li>
+</ul>
+</div>
+
+<h2>5. Visuals</h2>
+<p class="meta">No photo today. The Wikimedia Commons search API blocked this session's requests with "too many requests" over many retries, so I could not obtain a freely licensed photo of the plant, flowers or products to embed. I will not hotlink or use unlicensed images. Product forms for reference: dried herb tea, tinctures, capsules and tablets of standardized extract. A diagram and comparison table appear above.</p>
+
+<h2>6. Friday hands-on: map your own medicine cabinet</h2>
+<p>You need paper, a pen, and anything you or a family member take regularly (medicines and supplements). This is a thinking exercise; do not change what anyone takes.</p>
+<ol>
+<li>Write each item on its own line. Next to it, write its active ingredient from the label.</li>
+<li>Draw the ADME journey for one item as four boxes: gut → blood → liver → out. Mark with a star where you think an herb could interfere (usually the liver box).</li>
+<li>For each herb you use or are considering, search the NCCIH page for that herb and list any medicines it names.</li>
+<li>Circle any pair that overlaps. Write one question for your pharmacist, for example: "Does X change how my body clears Y?"</li>
+<li>Bring that list to your pharmacist or doctor. They can check combinations properly; you are collecting questions, not answers.</li>
+</ol>
+<div class="box">Check yourself: can you say, in one sentence, why an inducer makes a medicine weaker while an inhibitor makes it stronger?</div>
+
+<h2>7. Takeaway</h2>
+<div class="box"><strong>Molecules are changed on the way to their target, mostly by liver enzymes. St John's wort contains hyperforin, which switches on PXR and makes the liver build more CYP3A4, so many medicines are cleared too fast. The benefit for depression is mixed; the interaction risk is the sturdier fact.</strong></div>
+
+<h2>8. Terms from today</h2>
+<dl>
+<dt>ADME</dt><dd>Absorption, distribution, metabolism, excretion: the four stages of a molecule's journey in the body.</dd>
+<dt>Absorption</dt><dd>Passage from the gut into the blood.</dd>
+<dt>Distribution</dt><dd>Carriage by the blood to the tissues.</dd>
+<dt>Metabolism</dt><dd>Chemical change of a molecule by enzymes, mostly in the liver.</dd>
+<dt>Excretion</dt><dd>Removal from the body, for example in urine or bile.</dd>
+<dt>Cytochrome P450 (CYP)</dt><dd>A family of liver enzymes that process many medicines and herb molecules.</dd>
+<dt>CYP3A4</dt><dd>One CYP enzyme, central to many herb-drug interactions.</dd>
+<dt>AUC</dt><dd>Area under the curve: the total exposure to a drug in the blood over time.</dd>
+<dt>Enzyme induction</dt><dd>A substance causing cells to make more of an enzyme, so substrates are cleared faster.</dd>
+<dt>Enzyme inhibition (CYP)</dt><dd>A substance blocking an enzyme, so substrates are cleared slower and build up.</dd>
+<dt>PXR</dt><dd>Pregnane X receptor: an in-cell receptor that, when activated, turns on genes for drug-handling enzymes including CYP3A4.</dd>
+<dt>Hyperforin</dt><dd>A St John's wort molecule linked to PXR activation and CYP3A4 induction.</dd>
+<dt>Herb-drug interaction</dt><dd>When a herb changes the effect or level of a medicine.</dd>
+</dl>
+
+<h2>9. Sources</h2>
+<ol>
+<li><span class="tier">Tier 3</span> NCCIH, <em>St. John's Wort and Depression: In Depth</em>, last updated December 2017. <a href="https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth">nccih.nih.gov</a>. Supports: grade, interaction list, safety. (Opened; this page does not mention cytochrome P450.)</li>
+<li><span class="tier">Tier 3</span> FDA, <em>Drug Development and Drug Interactions: Table of Substrates, Inhibitors and Inducers</em>. <a href="https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers">fda.gov</a>. Supports: inhibitor/inducer definitions via AUC, CYP3A examples. (Opened; does not mention St John's wort.)</li>
+<li><span class="tier">Tier 4</span> Nicolussi S, Drewe J, Butterweck V, Meyer zu Schwabedissen HE. <em>Clinical relevance of St. John's wort drug interactions revisited</em>. Br J Pharmacol 2020;177(6):1212-1226. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7056460/">PMC7056460</a>. Supports: PXR, CYP3A4, hyperforin, case reports. (First ~100,000 of ~206,000 characters read; narrative review, not a trial.)</li>
+</ol>
+<p class="meta"><strong>Unverified today:</strong> (1) the ADME framework and its definitions (general pharmacology); (2) that CYP3A4 handles a large share of medicines; (3) PXR being inside the cell and the gene-switching step; (4) that induction builds and fades slowly; (5) size of AUC drops for specific drugs and duration after stopping; (6) individual depression trials behind the NCCIH summary (grade provisional); (7) no photos obtained. None of these supports the grade.</p>
+</main>
+</body></html>

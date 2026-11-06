@@ -48,4 +48,16 @@ Herbs covered:
 
 Claims left unverified: general enzyme/substrate/active-site/inhibitor definitions; alliin and alliinase being compartmentalised in intact cloves; heat and stomach-acid effects on alliinase; which garlic compound causes BP/cholesterol effects and whether allicin is absorbed; newer garlic BP meta-analyses (snippets only); aspirin-COX (carried from Lesson 2). PubMed blocked by cookie check. Commons API rate-limited; no supplement photo found.
 
-## Next: Lesson 5, What happens to a molecule in the body (absorption, metabolism, CYP enzymes); Friday hands-on exercise
+## Lesson 5 complete: What Happens to a Molecule in the Body (2026-11-06)
+File: lessons/day-05-what-happens-to-a-molecule.html
+Summary: A molecule is absorbed, distributed, metabolized (mostly by liver CYP enzymes) and excreted (ADME). St John's wort's hyperforin activates PXR, so the liver makes more CYP3A4 and many medicines are cleared too fast.
+Friday hands-on: map your own medicine cabinet and write pharmacist questions. Depression benefit is mixed; the interaction risk is better documented.
+
+Terms defined: ADME, absorption, distribution, metabolism, excretion, cytochrome P450 (CYP), CYP3A4, AUC, enzyme induction, enzyme inhibition (CYP), PXR, hyperforin, herb-drug interaction
+
+Herbs covered:
+- St John's wort (Hypericum perforatum) / hyperforin: Mixed for depression (provisional; re-grade in Lesson 19). Interaction mechanism well supported. Sources: NCCIH St. John's Wort and Depression Dec 2017 (tier 3, opened), FDA CYP table (tier 3, opened, definitions only), Nicolussi 2020 Br J Pharmacol (tier 4 narrative review, ~half read).
+
+Claims left unverified: ADME framework; CYP3A4 share of medicines; PXR located inside the cell and the gene-switching step; induction build-up/fade speed; AUC drop sizes and duration after stopping; individual depression trials behind NCCIH. No photos: Commons API returned "too many requests" for the whole run (many retries over ~10 min).
+
+## Next: Lesson 6, start of Week 2 (Judging evidence): what "natural" means; check README curriculum.
