@@ -60,4 +60,17 @@ Herbs covered:
 
 Claims left unverified: ADME framework; CYP3A4 share of medicines; PXR located inside the cell and the gene-switching step; induction build-up/fade speed; AUC drop sizes and duration after stopping; individual depression trials behind NCCIH. No photos: Commons API returned "too many requests" for the whole run (many retries over ~10 min).
 
-## Next: Lesson 6, start of Week 2 (Judging evidence): what "natural" means; check README curriculum.
+## Lesson 6 complete: What "Natural" Does and Does Not Tell You (2026-11-09)
+File: lessons/day-06-what-natural-means.html
+Summary: "Natural" names a molecule's source, not its safety or benefit; judge by molecules, dose and evidence. Comfrey's pyrrolizidine alkaloids are converted by liver CYP enzymes (2A6, 3A4, 3A5) into reactive forms that can cause sinusoidal obstruction syndrome.
+EMA accepts comfrey root only as a short-term (10 days), adult, skin product with a 0.35 microgram/day PA limit.
+
+Terms defined: natural, synthetic, pyrrolizidine alkaloid (PA), bioactivation/toxification, prodrug, adduct, hepatocyte, sinusoidal obstruction syndrome (SOS), HMPC / EU herbal monograph, traditional use (regulatory)
+
+Herbs covered:
+- Comfrey (Symphytum officinale) / pyrrolizidine alkaloids: Traditional use only (provisional; no Tier 1/2 source opened). Sources: EMA Symphyti radix (tier 3, opened), NCCIH Safe Use (tier 3, opened), Teschke 2021 Int J Mol Sci (tier 4, first third read, mechanism only).
+- Sweet wormwood (Artemisia annua) / artemisinin: mentioned as counter-example only, no grade; details unverified (news coverage only).
+
+Claims left unverified: same molecule acts the same regardless of origin (inference from Lesson 1); artemisinin/Nobel details (nobelprize.org 403); any trial evidence for topical comfrey (Cochrane 403); skin absorption of PAs and PA content of products; advice against comfrey tea and use on broken skin; EMA wording after the 2022-2024 revision; LiverTox/PubMed blocked by bot check. Commons API worked after ~10 min of 429s; one plant photo (Flogaus-Faust, CC BY 4.0) embedded, no root/product photo.
+
+## Next: Lesson 7 (Week 2, Judging evidence): types of evidence; check README curriculum.
