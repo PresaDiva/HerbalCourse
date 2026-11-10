@@ -73,4 +73,15 @@ Herbs covered:
 
 Claims left unverified: same molecule acts the same regardless of origin (inference from Lesson 1); artemisinin/Nobel details (nobelprize.org 403); any trial evidence for topical comfrey (Cochrane 403); skin absorption of PAs and PA content of products; advice against comfrey tea and use on broken skin; EMA wording after the 2022-2024 revision; LiverTox/PubMed blocked by bot check. Commons API worked after ~10 min of 429s; one plant photo (Flogaus-Faust, CC BY 4.0) embedded, no root/product photo.
 
-## Next: Lesson 7 (Week 2, Judging evidence): types of evidence; check README curriculum.
+## Lesson 7 complete: Types of Evidence: What Counts as Proof? (2026-11-10)
+File: lessons/day-07-types-of-evidence.html
+Summary: Evidence is a ladder (tradition/anecdote, lab/animal, observational, randomized controlled trial, systematic review); each rung removes one way of being fooled. Echinacea has a plausible lab mechanism (alkamides at CB2) but Cochrane's 24 trials (4,631 people) show no clear treatment benefit for colds and only a weak prevention trend.
+
+Terms defined: anecdote, regression to the mean, observational study, confounding, randomized controlled trial, double-blind, systematic review, meta-analysis, heterogeneity, risk of bias, statistically significant (previewed; Lesson 8), post hoc, alkamides, CB2 receptor, placebo effect
+
+Herbs covered:
+- Echinacea (Echinacea purpurea) for the common cold: Mixed (preview; re-grade in Lesson 22). Sources: Cochrane 2014 (tier 1, summary page opened), NCCIH Echinacea Nov 2024 (tier 3, opened), Woelkart and Bauer 2007 (tier 4, not opened; mechanism hypothesis only).
+
+Claims left unverified: general definitions of evidence types, confounding, regression to the mean (NCCIH evidence pages 404); alkamide-CB2 mechanism and TNF-alpha link (search summaries only; PubMed cookie-blocked); Cochrane author list; daisy-family allergy risk; which echinacea species/part/product works. Only two flower photos (CC BY-SA 4.0) embedded; no root or product photo found.
+
+## Next: Lesson 8 (Week 2): reading a study (p-values, confidence, effect size, NNT preview from Lesson 3).
